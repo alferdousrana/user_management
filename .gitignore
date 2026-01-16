@@ -28,7 +28,6 @@ secret_key.txt
 # ==========================
 # VS Code / IDE
 # ==========================
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
@@ -49,3 +48,7 @@ htmlcov/
 pytest_cache/
 nosetests.xml
 coverage.xml
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
