@@ -1,0 +1,51 @@
+# ==========================
+# Python / Django
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.virtualenv/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+
+# Secret files
+.env
+.env.local
+.env.*.local
+secret_key.txt
+
+# ==========================
+# VS Code / IDE
+# ==========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ==========================
+# OS generated
+# ==========================
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Testing & Coverage
+# ==========================
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
